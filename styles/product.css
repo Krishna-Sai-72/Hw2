@@ -124,14 +124,13 @@ ul li {
 
 #vrbar {
   margin-top: -1px;
-  margin-right:208px;
+  margin-bottom:2px;
   height: 376px;
   width: 160px;
-  right: 0;
   background-color: #F3DE9B;
-  position: absolute;
-  padding : 0 5px 0 20px; 
+  float: right;
 }
+  position: absolute;
 .v-bold{
   font-weight: bold;
 }
