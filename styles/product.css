@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 800px;
+  background-color: white;
+  background-image: url(../images/bats.gif);
+  background-position: center; /* Center the image */
+  border-top-style: 5px solid black;
+  border-bottom-style: 5px solid black;
+  border-right-style: 5px solid black;
+  border-left-style: 5px solid black;
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shadow {
+  background-color: white;
+  -moz-box-shadow:    0 6px 6px 10px black; 
+  -webkit-box-shadow: 0 6px 6px 10px black; 
+  box-shadow:         0 6px 6px 10px black;
+}
+
+.h1-space{
+  margin-bottom: -20px; 
+  margin-left: 100px; 
+}
+
+.img-float{
+  float:left;
+}
+
+.img-right{
+  padding: 10px 20px 10px 5px;
+  position: static; 
+}
+.img-product{
+  float:left;
+  padding: 15px;
+}
+
+.h3-space{
+  margin-bottom: 5px; 
+  margin-left: 100px; 
+}
+
+.header-gradient {
+  background: linear-gradient(45deg, white, orange 75%, black);
+}
+
+.footer-gradient {
+  background: linear-gradient(45deg, black, orange 25%, white);
+}
+
+h2{
+  font-size: 150%;
+}
+
+h2::first-letter{
+  font-size: 200%;
+}
+
+h1{
+  font-size: 240%;
+  font-style: bold; 
+}
+
+h3{
+  font-size: 140%;
+}
+
+ul li {
+  padding-left : 5px;
+  padding-bottom : 5px;
+}
+
+.drawer-line{
+  border-bottom: 3px solid #000;
+}
+
+.hbar{
+  min-width:100%;
+  width:100%;
+  overflow:hidden;
+  background-color:black;
+}
+
+.hbar-item{
+  margin-left:40px;
+  padding: 8px 20px 8px 20px;
+  float:left;
+  border:none;
+  display:block;
+  outline:1;
+}
+
+.hbar-color{
+  text-decoration : none;
+  color: white;
+}
+
+#vlbar {
+  padding: 40px 20px;
+  width: 160px;
+  height: 295px;
+  float: left;
+  background-color: white;
+  position: absolute;
+}
+
+.vlbar-item{
+  margin-bottom: 8px;
+  padding : 12px 12px 12px 20px;
+  float:left;
+  width : 60%;
+  background: orange;
+  border : 2px double black;
+}
+
+.vlbar-color{
+  color: black;
+  font-weight: bold;
+}
+
+#vrbar {
+  margin-top: -1px;
+  margin-right:208px;
+  height: 376px;
+  width: 160px;
+  right: 0;
+  background-color: #F3DE9B;
+  position: absolute;
+  padding : 0 5px 0 20px; 
+}
+.v-bold{
+  font-weight: bold;
+}
+.v-frmt{
+  padding : 0 0 0 10px; 
+  font-size:80%;
+}
+a{
+  text-decoration : none;
+  color: orange;
+}
+
+#vlbar a:link{
+  font-weight: bold;
+}
+
+#vlbar a:hover {
+  background-color: gray;
+}
+
+#vrbar a:link{
+  font-weight: normal;
+  color:black;
+}
+
+#vrbar a:hover {
+  color:green;
+}
+.hbar a:link{
+  color: white;
+}
+
+.hbar a:hover {
+  background-color: gray;
+}
+
+main{
+  background-color: white;
+  margin-left:170px;
+  margin-right:170px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+
+footer{
+  border-top: 3px solid #000;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
