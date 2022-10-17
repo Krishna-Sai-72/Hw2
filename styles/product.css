@@ -129,6 +129,7 @@ ul li {
   width: 160px;
   background-color: #F3DE9B;
   float: right;
+  padding : 0px 5px 0 20px; 
 }
   position: absolute;
 .v-bold{
